@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 152px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.first-section {
+    background-color: #1f2937;
+    padding: 80px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #f9faf8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section {
+    padding: 50px 15%;
+    text-align: center;
+}
+
+.second-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-box {
+    width: 160px;
+}
+
+.box-image {
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    color: #4b5563;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 100px 15%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
+}
+
+.fourth-section {
+    padding: 80px 15%;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text h3 {
+    margin-bottom: 10px;
+}
+
+.cta-box .signup-btn {
+    border: 2px solid white;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
